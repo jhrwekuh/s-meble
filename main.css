@@ -118,7 +118,7 @@ body {
 /* SLIDESHOW SLIDER IMAGES */
 
 .slideshow {
-    min-width: 70%;
+    width: 70%;
     height: 500px;
     background-color:black;
     position: absolute;
@@ -222,7 +222,7 @@ body {
 }
 
 .content-box {
-    min-width:40%;
+    width:40%;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 80px;
