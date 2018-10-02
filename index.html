@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Swarzędzkie Meble</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <div class="body-container">
+        <!--   NAVIGATION MENU   -->
+    <div class="navbar flex-wrapper" id="navibar">
+            <img id="headerlogo" src="img/logo.jpg">
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>O Nas</li></a>
+            <a href="#"><li>Oferta</li></a>
+            <a href="#"><li>Kontakt</li></a>
+       </div>
+       <script>navbar();</script>
+
+       <!--   SLIDER WITH THE IMAGES   -->
+       <div class="slideshow">
+        
+        <img src="img/slider1.jpg" class="img-slider">
+        <img src="img/slider2.jpg" class="img-slider">
+        <img src="img/slider3.jpg" class="img-slider">
+        <div class="slider-buttons">
+            <button class="button-prev"><</button>
+            <button class="button-next">></button>
+        </div>
+        <div class="slider-dots">
+            <li class="slider-dot slider-dot-active"></li>
+            <li class="slider-dot"></li>
+            <li class="slider-dot"></li>
+        </div>
+       </div>
+       <script>slider();</script>
+       <!--   WEBPAGE CONTENT   -->
+        <div class="content-wrapper content-box-wrapper">
+            <div class="content-box">
+                <h2>Nowości</h2>
+
+                <p class="title-text">Sample Title</p>
+                <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <p class="content-post-time">27 września 2018 20:30</p>
+
+                <p class="title-text">Sample Title</p>
+                <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <p class="content-post-time">27 września 2018 20:30</p>
+
+                <p class="title-text">Sample Title</p>
+                <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <p class="content-post-time">27 września 2018 20:30</p>                
+            </div>
+
+        <div class="content-box-2">
+                <h2>Trendy</h2>
+                <h3>Zobacz nasze najpopularniejsze kolekcje</h3>
+            <img src="img/content-img-1.jpg" class="first-picture content-pic">
+            <div class="content-box-row content-img-wrapper">
+                <img src="img/content-img-2.jpg" class="second-picture content-pic">
+                <img src="img/content-img-3.jpg" class="third-picture content-pic">
+            </div>
+
+        </div>
+
+        </div>
+    </div>
+</body>
+</html>
